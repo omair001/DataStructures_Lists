@@ -1,0 +1,33 @@
+N = 10: ms to Ins. start,   end,    rnd; Rmv. start,   end,    rnd; Rmv. by value
+ArrayList           0        0       0         0        0       0         0
+A1ArrayList         0        0       0         0        0       0         0
+LinkedList          0        0       0         0        0       0         0
+A1LinkedList        1        0       0         0        0       0         0
+
+
+N = 100: ms to Ins. start,   end,    rnd; Rmv. start,   end,    rnd; Rmv. by value
+ArrayList            0        0       1         0        0       0         0
+A1ArrayList          0        1       0         0        0       0         0
+LinkedList           1        0       0         0        0       0         0
+A1LinkedList         0        0       0         0        0       0         1
+
+
+N = 1000: ms to Ins. start,   end,    rnd; Rmv. start,   end,    rnd; Rmv. by value
+ArrayList             1        0       0         0        0       0         8
+A1ArrayList           2        0       1         3        0       1         7
+LinkedList            0        1       0         1        0       0         6
+A1LinkedList          0        1       0         0        1       0        10
+  
+
+N = 10000: ms to Ins. start,   end,    rnd; Rmv. start,   end,    rnd; Rmv. by value
+ArrayList              12        2       7        11        1       7        88
+A1ArrayList            39        1      19        40        1      19       100
+LinkedList              1        1      82         0        1     100       342
+A1LinkedList            1        2      93         1        0     109       370
+
+
+N = 100000: ms to Ins. start,   end,    rnd; Rmv. start,   end,    rnd; Rmv. by value
+ArrayList               1241        4     574      1151        4     561      8968
+A1ArrayList             3799        3    1900      3801        1    1895      9863
+LinkedList                10        2   22836         1        2   25284     35114
+A1LinkedList               3        4   20144         1        1   22207     40201
